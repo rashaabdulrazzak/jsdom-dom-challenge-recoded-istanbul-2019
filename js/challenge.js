@@ -60,5 +60,4 @@ function addComment(){
   lic.innerText = comment ; 
    console.log(lic.innerText);
   ulc.appendChild(lic);
-
 }
