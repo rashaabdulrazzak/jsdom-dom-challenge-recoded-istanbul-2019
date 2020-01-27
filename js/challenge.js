@@ -50,7 +50,7 @@ function pauseAll(){
   }
 }
 function addComment(){
-   event.preventDefault()
+   event.preventDefault();
   let ulc = document.querySelector('.comments');
   console.log(ulc);
   let comment = document.getElementById('comment-input').value;
