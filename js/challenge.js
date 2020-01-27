@@ -50,7 +50,7 @@ function pauseAll(){
   }
 }
 function addComment(){
-  let ulc = document.querySelector('list');
+  let ulc = document.querySelector('.comments');
   console.log(ulc);
   let comment = document.getElementById('comment-input').value;
    console.log(comment);
