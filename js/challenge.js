@@ -56,7 +56,7 @@ function addComment(){
    console.log(comment);
   let lic = document.createElement('li');
    console.log(lic);
-  lic.innerText = comment ; 
-   console.log(lic.innerText);
+  lic.innerHTML = comment ; 
+   console.log(lic.innerHTML);
   ulc.appendChild(lic);
 }
