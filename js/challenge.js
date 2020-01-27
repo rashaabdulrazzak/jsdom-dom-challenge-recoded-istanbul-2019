@@ -49,3 +49,8 @@ function pauseAll(){
    document.getElementById('pause').innerText = 'pause';
   }
 }
+function addComment(){
+  let comment = document.querySelector('')
+  
+}
+}
