@@ -50,7 +50,8 @@ function pauseAll(){
   }
 }
 function addComment(){
-  let comment = document.querySelector('')
+  let ulc = document.querySelector('list');
+  let comment = document.getElementById()
   
 }
 }
