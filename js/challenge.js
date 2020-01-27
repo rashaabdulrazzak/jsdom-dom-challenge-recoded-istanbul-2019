@@ -55,6 +55,4 @@ function addComment(){
   let lic = document.createElement('li');
   lic.innerText = comment ; 
   ulc.appendChild(lic);
-  
-}
 }
