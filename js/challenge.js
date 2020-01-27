@@ -59,4 +59,5 @@ function addComment(){
   lic.innerHTML = comment ; 
    console.log(lic.innerHTML);
   ulc.appendChild(lic);
+  document.appendChild(ulc);
 }
