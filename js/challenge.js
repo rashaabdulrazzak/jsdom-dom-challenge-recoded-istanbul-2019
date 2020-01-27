@@ -51,7 +51,10 @@ function pauseAll(){
 }
 function addComment(){
   let ulc = document.querySelector('list');
-  let comment = document.getElementById()
+  let comment = document.getElementById('comment-input').value;
+  let lic = document.createElement('li');
+  lic.innerText = comment ; 
+  ulc.appendChild(lic);
   
 }
 }
